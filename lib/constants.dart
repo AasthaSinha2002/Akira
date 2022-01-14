@@ -115,17 +115,17 @@ final kIkshana = [
   "assets/projects/ikshana/iksh2.png",
 ];
 
-//GRAPHIC DESIGN
-final kGraphicDesign = [
-  "assets/projects/graphic designs/1.png",
-  "assets/projects/graphic designs/2.png",
-  "assets/projects/graphic designs/3.png",
-  "assets/projects/graphic designs/4.jpeg",
-  "assets/projects/graphic designs/5.jpeg",
-  "assets/projects/graphic designs/6.png",
-  "assets/projects/graphic designs/7.png",
-  "assets/projects/graphic designs/Aasthasinha_e20cse505_F1_Logo.png",
-];
+// //GRAPHIC DESIGN
+// final kGraphicDesign = [
+//   "assets/projects/graphic designs/1.png",
+//   "assets/projects/graphic designs/2.png",
+//   "assets/projects/graphic designs/3.png",
+//   "assets/projects/graphic designs/4.jpeg",
+//   "assets/projects/graphic designs/5.jpeg",
+//   "assets/projects/graphic designs/6.png",
+//   "assets/projects/graphic designs/7.png",
+//   "assets/projects/graphic designs/Aasthasinha_e20cse505_F1_Logo.png",
+// ];
 
 final kProjectsIcons = [
   "assets/projects/eye.png",
