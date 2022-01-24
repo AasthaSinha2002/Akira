@@ -219,15 +219,15 @@ class _ServicesShowCaseState extends State<ServicesShowCase> {
                       _themeProvider.lightTheme ? Colors.black : Colors.white,
                 ),
               ),
-              kProjectsTitles[_currentIndex] == kProjectsTitles[1]
-                  ? InkWell(
-                      onTap: () => launchURL(
-                          "https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1"),
-                      child: Icon(
-                        FontAwesomeIcons.googlePlay,
-                        color: Colors.green,
-                      ))
-                  : Container(),
+              // kProjectsTitles[_currentIndex] == kProjectsTitles[1]
+              //     ? InkWell(
+              //         onTap: () => launchURL(
+              //             "https://play.google.com/store/apps/details?id=com.hmz.al_quran&pli=1"),
+              //         child: Icon(
+              //           FontAwesomeIcons.googlePlay,
+              //           color: Colors.green,
+              //         ))
+              //     : Container(),
               Expanded(child: Container()),
               IconButton(
                 onPressed: () => launchURL(kProjectsLinks[_currentIndex]),

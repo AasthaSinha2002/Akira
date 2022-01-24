@@ -53,59 +53,58 @@ final kTechno = [
 
 // services
 final kServicesIcons = [
-  "assets/services/app.png",
-  "assets/services/ui.png",
-  "assets/services/rapid.png",
   "assets/services/blog.png",
   "assets/services/open.png",
+  "assets/services/research.png",
+  "assets/services/premier.png",
 ];
 
 final kServicesTitles = [
-  "Full App Development",
-  "UI/UX Designing",
-  "Rapid Prototyping",
-  "Technical Blog Writing",
-  "Open Source - GitHub",
+  "Clubs and Co-curriculars",
+  "Open Source",
+  "Research",
+  "Video Editing",
 ];
-
-// final kServicesDescriptions = [
-//   "For now, I can only develop Android Apps using Flutter, that's because I don't own a MacBook right now so can't test or debug apps for iOS. Hopefully this missing piece will be filled soon :)",
-//   "Although I'm mainly a flutter developer but I do care about the UI/UX for my client. Hence, I also do UI designing for applications. So, feel free to ask me for getting you UI/UX for your apps",
-//   "Having a startup idea? Or maybe just want a prototype for your clients? With Flutter I can get you basic version of your app in no time and you are good to go for your project in future.",
-//   "I have been writing technical blogs on Medium for over a year now. So, I can get you technical blogs with awesome header images with interesting topics.\nMy Medium profile @mhamzadev",
-//   "Working as open source contributor on GitHub with 200+ stars and numerous forks on various projects liked and shared by other developers.\nMy GitHub Profile @mhmzdev",
-// ];
 
 final kServicesDescriptions = [
-  "Android app development via Flutter\n- Splash Screen\n- Firebase Auth/Cloud\n- REST APIs\n- Maps integration and more...!",
-  "Modern UI/UX Designing\n- Adobe XD\n- Mobile & Web designs\n- Interactive UI designs\n- Responsiveness\n- Promo Videos and more..!",
-  "Rapid Prototype via Flutter\n- Working MVP\n- Quick & Working prototype",
-  "Technical Blog writing\n- Medium blogs\n- Soothing header images\n- SEO friendly\n- Researched topics and more..!",
-  "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
+  "\n-Design head @IEEE BU\n-Secretary at WIE BU\n-Video Editor at HappyUS",
+  "\n-Completed Hacktoberfest 2021\n-Contribued to various Open source github projects",
+  "\n-I am a computer vision research enthusiast\n-Have been working on few of which one is google research titled Infinite Nature",
+  "Creation and Editing\n -Design Head @IEEE BU \n- Editor at HappyUs\n -Been editing on adobe Premier Pro",
+  // "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
 ];
 
-final kServicesLinks = [
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
-  "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
-  "https://mhamzadev.medium.com",
-  "https://github.com/mhmzdev"
-];
+// final kServicesLinks = [
+//   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
+//   "https://www.fiverr.com/hamza6shakeel/get-you-modern-ui-design-using-adobe-xd",
+//   "https://www.fiverr.com/hamza6shakeel/be-your-mobile-app-developer-via-flutter",
+//   "https://mhamzadev.medium.com",
+//   // "https://github.com/mhmzdev"
+// ];
 
 // projects
+final kProjectsTitles = [
+  "Ikshana",
+  "Akira",
+  "Playdate",
+  "Urrban Farms",
+  "Graphic Designs",
+];
+
 final kProjectsBanner = [
   "assets/projects/ikshana.png",
-  "assets/projects/quranB.png",
+  "assets/projects/akira.png",
   "assets/projects/playdate.png",
   "assets/projects/urrban.png",
   "assets/projects/graphic.png",
 ];
-//URRBAN FARMS ARRAY
-final kUrrbanFarms = [
-  "assets/projects/urrban.png",
-  "assets/projects/urrban/urrb1.png",
-  "assets/projects/urrban/urrb2.png",
-  "assets/projects/urrban/urrb3.png",
+
+final kProjectsIcons = [
+  "assets/projects/eye.png",
+  "assets/projects/portfolio.png",
+  "assets/projects/dog.png",
+  "assets/projects/grocery.png",
+  "assets/projects/design.png",
 ];
 
 //IKSHANA ARRAY
@@ -115,42 +114,39 @@ final kIkshana = [
   "assets/projects/ikshana/iksh2.png",
 ];
 
-// //GRAPHIC DESIGN
-// final kGraphicDesign = [
-//   "assets/projects/graphic designs/1.png",
-//   "assets/projects/graphic designs/2.png",
-//   "assets/projects/graphic designs/3.png",
-//   "assets/projects/graphic designs/4.jpeg",
-//   "assets/projects/graphic designs/5.jpeg",
-//   "assets/projects/graphic designs/6.png",
-//   "assets/projects/graphic designs/7.png",
-//   "assets/projects/graphic designs/Aasthasinha_e20cse505_F1_Logo.png",
-// ];
-
-final kProjectsIcons = [
-  "assets/projects/eye.png",
-  "assets/projects/portfolio.png",
-  "assets/projects/dog.png",
-  "assets/projects/grocery.png",
-  "assets/projects/design.png",
-  // "assets/projects/flutter.png",
-  // "assets/projects/earbender.png",
-  // "assets/projects/java.png",
-  // "assets/projects/android.png",
-  // "assets/services/open.png",
+//AKIRA ARRAY
+final kAkira = [
+  "assets/projects/akira/aki1.png",
+  "assets/projects/akira/aki2.png",
+  "assets/projects/akira/aki3.png",
+  "assets/projects/akira/aki4.png",
 ];
 
-final kProjectsTitles = [
-  "Ikshana",
-  "Akira",
-  "Playdate",
-  "Urrban Farms",
-  "Graphic Designs",
-  // "flutter.dev - Flutter Web",
-  // "Earbender",
-  // "File Transfer Protocol",
-  // "My Order",
-  // "Hidev",
+//PLAY DATE ARRAY ARRAY
+final kPlayDate = [
+  "assets/projects/playdate/play1.png",
+  "assets/projects/playdate/play2.png",
+  "assets/projects/playdate/play3.png",
+];
+
+//URRBAN FARMS ARRAY
+final kUrrbanFarms = [
+  "assets/projects/urrban.png",
+  "assets/projects/urrban/urrb1.png",
+  "assets/projects/urrban/urrb2.png",
+  "assets/projects/urrban/urrb3.png",
+];
+
+//GRAPHIC DESIGN
+final kGraphicDesign = [
+  "assets/projects/graphicDesigns/des1.png",
+  "assets/projects/graphicDesigns/2.png",
+  "assets/projects/graphicDesigns/3.png",
+  "assets/projects/graphicDesigns/4.jpeg",
+  "assets/projects/graphicDesigns/5.jpeg",
+  "assets/projects/graphicDesigns/6.png",
+  "assets/projects/graphicDesigns/7.png",
+  "assets/projects/graphicDesigns/Aasthasinha_e20cse505_F1_Logo.png",
 ];
 
 final kProjectsDescriptions = [
@@ -159,11 +155,6 @@ final kProjectsDescriptions = [
   "Playdate is a desktop application which helps to find a perfect mating partner for you dog.",
   "Urrban Farms is one of my first freelancing project, creating cross platform software solutions for a product based startup.",
   "Here are a few of designs and logos that i created during my internship with Youth India Legal Solutions.",
-  // "Flutter Official Site clone using Flutter Web. Try the live site here. For the time being its not responsive fully so there might be responsiveness issues.",
-  // "A concept of Music App developed using Flutter. Having functionality of playing Audio.",
-  // "A simple GUI based Java application that sends file from Client to Server but not the other way around.",
-  // "A concept app for self-services at various restaurants now a days. More like a Restaurant Ordering System.",
-  // "Its my end semester project. The whole design I developed here is an inspiration from my favortie Flutter Developer Marcin Szałek and his blog Fidev."
 ];
 
 final kProjectsLinks = [
@@ -172,11 +163,6 @@ final kProjectsLinks = [
   "https://github.com/AasthaSinha2002/Playdate",
   "https://github.com/mhmzdev/Covid19-Tracker-App",
   "https://github.com/mhmzdev/Messenger-Chat-Head-Flutter-UI",
-//   "https://github.com/mhmzdev/flutter.dev-Flutter-Web-Clone",
-//   "https://github.com/mhmzdev/Earbender_Music_App",
-//   "https://github.com/mhmzdev/FTP_GUI_Java",
-//   "https://github.com/mhmzdev/My-Order-Resturant-Ordering-System",
-//   "https://github.com/mhmzdev/Hidev_Web",
 ];
 
 // Contact
@@ -196,4 +182,10 @@ final kContactDetails = [
   "Greater Noida, India",
   "(+91)6202644608",
   "aasthasinha2010@gmail.com"
+];
+
+final kContactLinks = [
+  "https://www.google.com/maps/place/Bennett+University+(Times+of+India+Group)/@28.4506465,77.5841978,15z/data=!4m12!1m6!3m5!1s0x0:0x7ba6bedc9a2b537f!2sBennett+University+(Times+of+India+Group)!8m2!3d28.4506465!4d77.5841978!3m4!1s0x0:0x7ba6bedc9a2b537f!8m2!3d28.4506465!4d77.5841978",
+  "tel:+91 6202644608",
+  "mailto:aasthasinha2010@gmail.com",
 ];

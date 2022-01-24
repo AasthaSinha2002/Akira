@@ -16,11 +16,11 @@ class ServiceMobile extends StatelessWidget {
     return Container(
       child: Column(
         children: [
-          CustomSectionHeading(text: "\nWhat I Do"),
-          CustomSectionSubHeading(
-              text: "I may not be perfect, but I'm surely of some help :)\n\n"),
+          CustomSectionHeading(text: "\nSkills"),
+          // CustomSectionSubHeading(
+          //     text: "I may not be perfect, but I'm surely of some help :)\n\n"),
           CarouselSlider.builder(
-            itemCount: 5,
+            itemCount: 4,
             itemBuilder: (BuildContext context, int itemIndex, int i) =>
                 Padding(
               padding: const EdgeInsets.symmetric(vertical: 10.0),
@@ -29,7 +29,7 @@ class ServiceMobile extends StatelessWidget {
                 serviceIcon: kServicesIcons[i],
                 serviceTitle: kServicesTitles[i],
                 serviceDescription: kServicesDescriptions[i],
-                serviceLink: kServicesLinks[i],
+                // serviceLink: kServicesLinks[i],
                 cardBack: ServiceCardBackWidget(
                   serviceTitle: kServicesTitles[i],
                   serviceDesc: kServicesDescriptions[i],
