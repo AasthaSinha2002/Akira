@@ -161,8 +161,8 @@ final kProjectsLinks = [
   "https://github.com/AasthaSinha2002/Ikshana",
   "https://github.com/AasthaSinha2002/Akira",
   "https://github.com/AasthaSinha2002/Playdate",
-  "https://github.com/mhmzdev/Covid19-Tracker-App",
-  "https://github.com/mhmzdev/Messenger-Chat-Head-Flutter-UI",
+  "https://rolexsaraswat.wixsite.com/my-siter",
+  "https://drive.google.com/drive/folders/1mjxS_CPGLVPeSCZ6rUlxJYLuc0S40shX?usp=sharing",
 ];
 
 // Contact

@@ -1,7 +1,7 @@
 import 'package:flutter/material.dart';
 import 'package:folio/animations/bottomAnimation.dart';
 import 'package:folio/constants.dart';
-import 'package:folio/widget/customBtn.dart';
+// import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
 import 'package:folio/widget/projectCard.dart';
 

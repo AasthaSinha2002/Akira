@@ -1,9 +1,9 @@
 import 'package:flutter/material.dart';
-import 'package:folio/constants.dart';
+// import 'package:folio/constants.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:folio/provider/themeStyles.dart';
 import 'package:folio/sections/mainSection.dart';
-import 'package:folio/sections/serviceDetails/serviceDetails.dart';
+// import 'package:folio/sections/serviceDetails/serviceDetails.dart';
 import 'package:provider/provider.dart';
 import 'package:url_strategy/url_strategy.dart';
 
@@ -45,7 +45,7 @@ class _MyAppState extends State<MyApp> {
         routes: {
           "/": (context) => MainPage(),
           // "/workTogether": (context) => GetInTouch(),
-          "/details": (context) => ServiceDetails()
+          // "/details": (context) => ServiceDetails()
         },
       ),
     );

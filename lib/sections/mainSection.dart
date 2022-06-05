@@ -240,7 +240,7 @@ class _MainPageState extends State<MainPage> {
                   side: BorderSide(color: kPrimaryColor)),
               onPressed: () {
                 html.window.open(
-                    'https://drive.google.com/file/d/1CYmn4mXNHhyy7Bbc9bno1fNB4iqK1i0b/view?usp=sharing',
+                    'https://drive.google.com/file/d/1atEb-WmXY-JDuufwVPlO2myvlLDodsuc/view?usp=sharing',
                     "pdf");
               },
               child: Text(
@@ -318,7 +318,7 @@ class _MainPageState extends State<MainPage> {
                       side: BorderSide(color: kPrimaryColor)),
                   onPressed: () {
                     launchURL(
-                        "https://drive.google.com/file/d/1CYmn4mXNHhyy7Bbc9bno1fNB4iqK1i0b/view?usp=sharing");
+                        "https://drive.google.com/file/d/1atEb-WmXY-JDuufwVPlO2myvlLDodsuc/view?usp=sharing");
                   },
                   child: ListTile(
                     leading: Icon(

@@ -5,7 +5,7 @@ import 'package:folio/constants.dart';
 import 'package:folio/provider/themeProvider.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:provider/provider.dart';
-import 'package:url_launcher/url_launcher.dart';
+// import 'package:url_launcher/url_launcher.dart';
 
 class ServiceCard extends StatefulWidget {
   final String serviceIcon;

@@ -3,12 +3,12 @@ import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
 import 'package:folio/animations/bottomAnimation.dart';
 import 'package:folio/provider/themeProvider.dart';
-import 'package:folio/sections/serviceDetails/serviceDetails.dart';
+// import 'package:folio/sections/serviceDetails/serviceDetails.dart';
 import 'package:folio/widget/adaptiveText.dart';
-import 'package:folio/widget/customBtn.dart';
+// import 'package:folio/widget/customBtn.dart';
 import 'package:folio/widget/customTextHeading.dart';
 import 'package:folio/widget/serviceCard.dart';
-import 'package:font_awesome_flutter/font_awesome_flutter.dart';
+// import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:google_fonts/google_fonts.dart';
 import 'package:folio/constants.dart';
 import 'package:provider/provider.dart';
@@ -134,6 +134,8 @@ class ServiceCardBackWidget extends StatelessWidget {
           ),
         ),
         const SizedBox(height: 25.0),
+
+        //////detailssssss wala
         // MaterialButton(
         //   hoverColor: kPrimaryColor.withAlpha(150),
         //   shape: RoundedRectangleBorder(
