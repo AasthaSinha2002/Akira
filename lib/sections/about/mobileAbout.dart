@@ -30,10 +30,6 @@ class AboutMobile extends StatelessWidget {
         children: [
           CustomSectionHeading(text: "\nAbout Me"),
           CustomSectionSubHeading(text: "I'm shy, please say hi :)"),
-          // Image.asset(
-          //   'assets/mob.png',
-          //   height: height * 0.27,
-          // ),
           SizedBox(
             height: height * 0.03,
           ),
@@ -120,21 +116,6 @@ class AboutMobile extends StatelessWidget {
           SizedBox(
             height: height * 0.02,
           ),
-          //------------------------------------------.>>>>>>>
-
-          // SizedBox(
-          //   height: height * 0.025,
-          // ),
-          // Container(
-          //   decoration: BoxDecoration(
-          //     border: Border(
-          //       bottom: BorderSide(color: Colors.grey[900], width: 1.0),
-          //     ),
-          //   ),
-          // ),
-          // SizedBox(
-          //   height: height * 0.015,
-          // ),
           Align(
             alignment: Alignment.centerLeft,
             child: Text(

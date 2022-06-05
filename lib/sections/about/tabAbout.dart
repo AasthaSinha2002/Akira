@@ -29,10 +29,6 @@ class AboutTab extends StatelessWidget {
         children: [
           CustomSectionHeading(text: "\nAbout Me"),
           CustomSectionSubHeading(text: "I'm shy, please say hi :)"),
-          // Image.asset(
-          //   'assets/mob.png',
-          //   height: height * 0.3,
-          // ),
           SizedBox(
             height: height * 0.03,
           ),
@@ -183,16 +179,7 @@ class AboutTab extends StatelessWidget {
               ),
               Column(
                 crossAxisAlignment: CrossAxisAlignment.start,
-                children: [
-                  // AboutMeMetaData(
-                  //   data: "Email",
-                  //   information: "hamza.6.shakeel@gmail.com",
-                  // ),
-                  // AboutMeMetaData(
-                  //   data: "From",
-                  //   information: "Attock, PK",
-                  // ),
-                ],
+                children: [],
               ),
             ],
           ),

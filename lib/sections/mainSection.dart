@@ -256,14 +256,6 @@ class _MainPageState extends State<MainPage> {
         const SizedBox(width: 15.0),
         SizedBox(
           height: 30.0,
-          // child: Switch(
-          //   inactiveTrackColor: Colors.grey,
-          //   value: !_themeProv.lightTheme,
-          //   onChanged: (value) {
-          //     _themeProv.lightTheme = !value;
-          //   },
-          //   activeColor: kPrimaryColor,
-          // ),
         ),
         const SizedBox(width: 15.0),
       ],
@@ -284,26 +276,6 @@ class _MainPageState extends State<MainPage> {
                   height: 28,
                 ),
               ),
-              // Divider(
-              //   color: theme.lightTheme ? Colors.grey[200] : Colors.white,
-              // ),
-              // ListTile(
-              //   leading: Icon(
-              //     Icons.light_mode,
-              //     color: kPrimaryColor,
-              //   ),
-              //   title: Text("Dark Mode",
-              //       style: TextStyle(
-              //           color: theme.lightTheme ? Colors.black : Colors.white)),
-              //   // trailing: Switch(
-              //   //   inactiveTrackColor: Colors.grey,
-              //   //   value: !theme.lightTheme,
-              //   //   onChanged: (value) {
-              //   //     theme.lightTheme = !value;
-              //   //   },
-              //   //   activeColor: kPrimaryColor,
-              //   // ),
-              // ),
               Divider(
                 color: theme.lightTheme ? Colors.grey[200] : Colors.white,
               ),
@@ -360,7 +332,6 @@ class SectionsBody extends StatelessWidget {
       height: MediaQuery.of(context).size.height,
       width: MediaQuery.of(context).size.width,
       child: ListView.builder(
-        // physics: !kIsWeb ? ScrollPhysics() : NeverScrollableScrollPhysics(),
         controller: scrollController,
         itemCount: sectionsLength,
         itemBuilder: (context, index) => sectionWidget(index),
@@ -368,15 +339,3 @@ class SectionsBody extends StatelessWidget {
     );
   }
 }
-
-// onPointerSignal: (ps) {
-//           if (ps is PointerScrollEvent) {
-//             final newOffset = scrollController.offset + ps.scrollDelta.dy;
-//             if (ps.scrollDelta.dy.isNegative) {
-//               scrollController.jumpTo(math.max(0, newOffset));
-//             } else {
-//               scrollController.jumpTo(math.min(
-//                   scrollController.position.maxScrollExtent, newOffset));
-//             }
-//           }
-//         },

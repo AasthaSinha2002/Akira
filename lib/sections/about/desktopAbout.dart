@@ -33,12 +33,6 @@ class AboutDesktop extends StatelessWidget {
           SizedBox(height: 30.0),
           Row(
             children: [
-              // Expanded(
-              //   child: Image.asset(
-              //     'assets/web.png',
-              //     height: height * 0.7,
-              //   ),
-              // ),
               Expanded(
                 flex: width < 1230 ? 2 : 1,
                 child: Container(
@@ -75,12 +69,11 @@ class AboutDesktop extends StatelessWidget {
                           height: 2.0,
                         ),
                       ),
-                      // yaha se copy krna haiiii
-                      // ye space hai
+
                       SizedBox(
                         height: height * 0.025,
                       ),
-                      // ye container line hai
+
                       Container(
                         decoration: BoxDecoration(
                           border: Border(
@@ -97,7 +90,7 @@ class AboutDesktop extends StatelessWidget {
                         style: GoogleFonts.montserrat(
                             color: kPrimaryColor, fontSize: height * 0.018),
                       ),
-                      // ye wo bullets hai jo constatnts.dart me defined hai
+
                       Row(
                         children: [
                           for (int i = 0; i < kTools.length; i++)
@@ -106,26 +99,12 @@ class AboutDesktop extends StatelessWidget {
                             ),
                         ],
                       ),
-                      // SizedBox(
-                      //   height: height * 0.02,
-                      // ),
-                      // Container(
-                      //   decoration: BoxDecoration(
-                      //     border: Border(
-                      //       bottom:
-                      //           BorderSide(color: Colors.grey[800], width: 2.0),
-                      //     ),
-                      //   ),
-                      // ),
-                      // SizedBox(
-                      //   height: height * 0.025,
-                      // ),
-                      //yaha khatam hai
+
 //................................................................................
                       SizedBox(
                         height: height * 0.025,
                       ),
-                      // ye container line hai
+
                       Container(
                         decoration: BoxDecoration(
                           border: Border(
@@ -142,7 +121,7 @@ class AboutDesktop extends StatelessWidget {
                         style: GoogleFonts.montserrat(
                             color: kPrimaryColor, fontSize: height * 0.018),
                       ),
-                      // ye wo bullets hai jo constatnts.dart me defined hai
+
                       Row(
                         children: [
                           for (int i = 0; i < 4; i++)
@@ -173,21 +152,6 @@ class AboutDesktop extends StatelessWidget {
                       SizedBox(
                         height: height * 0.025,
                       ),
-                      //yaha khatam hai
-//.............................................................................................
-                      // Row(
-                      //   mainAxisAlignment: MainAxisAlignment.spaceBetween,
-                      //   children: [
-                      //     AboutMeMetaData(
-                      //       data: "Name",
-                      //       information: "Aastha Sinha",
-                      //     ),
-                      //     AboutMeMetaData(
-                      //       data: "Email",
-                      //       information: "aasthasinha2010@gmail.com",
-                      //     ),
-                      //   ],
-                      // ),
 
                       Row(
                         children: [
@@ -209,16 +173,7 @@ class AboutDesktop extends StatelessWidget {
                           ),
                           Column(
                             crossAxisAlignment: CrossAxisAlignment.start,
-                            children: [
-                              // AboutMeMetaData(
-                              //   data: "Email",
-                              //   information: "hamza.6.shakeel@gmail.com",
-                              // ),
-                              // AboutMeMetaData(
-                              //   data: "From",
-                              //   information: "Attock, PK",
-                              // ),
-                            ],
+                            children: [],
                           ),
                         ],
                       ),

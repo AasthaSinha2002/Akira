@@ -38,12 +38,6 @@ class ContactDesktop extends StatelessWidget {
               ),
             ),
           ),
-          // const SizedBox(
-          //   height: 25.0,
-          // ),
-          // OutlinedCustomBtn(
-          //     btnText: "Let's Work Together",
-          //     onPressed: () => Navigator.pushNamed(context, '/workTogether')),
         ],
       ),
     );
