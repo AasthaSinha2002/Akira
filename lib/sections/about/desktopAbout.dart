@@ -62,7 +62,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.02,
                       ),
                       AdaptiveText(
-                        "Hey, I'm Aastha Sinha, currently in sophomore year at Bennett University, pursuing B.tech in Computer Science with a Specialization in AI as a major. I have developed a few projects in my previous semesters working and exploring different frameworks. My priority always lies in building intuitive and efficient projects. Also I'm an active IEEE Society member and also a core member of IEEE student chapter along with Bennett's AI society BIAS",
+                        "Hey, I'm Aastha Sinha, currently in Pre-Final year at Bennett University, pursuing B.tech in Computer Science with a Specialization in AI as a major. I have developed a few projects in my previous semesters working and exploring different frameworks. My priority always lies in building intuitive and efficient projects. Also I'm an active IEEE Society member and also a core member of IEEE student chapter along with Bennett's AI society BIAS",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.02,
                           color: Colors.grey[500],
