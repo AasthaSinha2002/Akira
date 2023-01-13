@@ -49,7 +49,7 @@ class AboutDesktop extends StatelessWidget {
                         height: height * 0.03,
                       ),
                       AdaptiveText(
-                        "An ambivert in Sophomore year. A developer by heart and an anime weeb by dark. ",
+                        "An ambivert in Pre-Final year. A developer by heart and an anime weeb by dark. ",
                         style: GoogleFonts.montserrat(
                           fontSize: height * 0.035,
                           fontWeight: FontWeight.w400,
