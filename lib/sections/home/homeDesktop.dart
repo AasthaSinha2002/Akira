@@ -104,7 +104,8 @@ class HomeDesktop extends StatelessWidget {
                           text: [
                             " AI/ML",
                             "React",
-                            "Node"
+                            "Node",
+                            "Deep Learning"
                           ]),
                     ],
                   ),

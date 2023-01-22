@@ -91,7 +91,8 @@ class _HomeMobileState extends State<HomeMobile> {
                         text: [
                            " AI/ML",
                             "React",
-                            "Node"
+                            "Node",
+                            "Deep Learning"
                         ]),
                   ],
                 ),

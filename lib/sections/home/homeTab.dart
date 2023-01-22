@@ -88,7 +88,8 @@ class HomeTab extends StatelessWidget {
                         text: [
                            " AI/ML",
                             "React",
-                            "Node"
+                            "Node",
+                            "Deep Learning"
                         ]),
                   ],
                 ),

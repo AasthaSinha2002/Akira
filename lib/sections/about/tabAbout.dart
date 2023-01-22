@@ -55,7 +55,7 @@ class AboutTab extends StatelessWidget {
             height: height * 0.02,
           ),
           Text(
-            "Hey, I'm Aastha Sinha, currently in sophomore year at Bennett University, pursuing B.tech in Computer Science with a Specialization in AI as a major. I have developed a few projects in my previous semesters working and exploring different frameworks. My priority always lies in building intuitive and efficient projects. Also I'm an active IEEE Society member and also a core member of IEEE student chapter along with Bennett's AI society BIAS",
+           "Hey, I'm Aastha Sinha, currently in Pre-Final year at Bennett University, pursuing B.tech in Computer Science with a Specialization in AI as a major,A Smart India Hackathon 2022 finalist, I have developed a few projects in my semesters working and exploring different frameworks. My priority always lies in building intuitive and efficient projects.Founding member of Women in Engineering WIE- IEEE and a former core member of IEEE student chapter along with Bennett's AI society BIAS for the academic year 2021- 22",
             style: GoogleFonts.montserrat(
               fontSize: height * 0.02,
               color: Colors.grey[500],
@@ -91,6 +91,52 @@ class AboutTab extends StatelessWidget {
                 ),
             ],
           ),
+//..................................
+          SizedBox(
+            height: height * 0.025,
+          ),
+          Container(
+            decoration: BoxDecoration(
+              border: Border(
+                bottom: BorderSide(color: Colors.grey[900], width: 2.0),
+              ),
+            ),
+          ),
+          SizedBox(
+            height: height * 0.02,
+          ),
+
+          Align(
+            alignment: Alignment.centerLeft,
+            child: Text(
+              "Frameworks",
+              style: GoogleFonts.montserrat(
+                  color: kPrimaryColor, fontSize: height * 0.018),
+            ),
+          ),
+
+          Row(
+            children: [
+              ToolTechWidget(
+                techName: kFrameworks[0],
+              ),
+            ],
+          ),
+           Row(
+            children: [
+              ToolTechWidget(
+                techName: kFrameworks[1],
+              ),
+            ],
+          ),
+           Row(
+            children: [
+              ToolTechWidget(
+                techName: kFrameworks[2],
+              ),
+            ],
+          ),
+
           //............................................................
           SizedBox(
             height: height * 0.025,

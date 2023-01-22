@@ -25,32 +25,38 @@ void launchURL(String _url) async =>
     await canLaunch(_url) ? await launch(_url) : throw 'Could not launch $_url';
 
 // Community
-final kCommunityLogo = ["assets/IEEE logo.png", "assets/ BU logo png.png"];
+final kCommunityLogo = ["assets/sih.png", "assets/ BU logo png.png"];
 
 final kCommunityLinks = [
-  "https://www.bennett.edu.in/department_chapters/ieee-student-chapter/",
+  "https://www.linkedin.com/feed/update/urn:li:activity:6971851919929556993/",
   "https://www.bennett.edu.in/"
 ];
 
 // Tools & Tech
 final kTools = [
-  "Dart",
   "Python",
-  "Java",
+  "Dart",
+  "JavaScript",
   "C++",
   "HTML",
   "CSS",
 ];
 
+final kFrameworks = [
+  "React",
+  "Node",
+  "Flutter",
+];
+
 // Skills and Interests
 final kTechno = [
-  "Android Development",
-  "iOS Development",
+  "Deep Learning",
+  "React and Node",
   "Development with Flutter",
   "Data Structures and Algorithm",
   "Adobe Premiere Pro",
   "Adobe Photoshop",
-  "MERN Stack",
+  "Augmented Reality",
   "Research Enthusiast on Computer Vision",
 ];
 
