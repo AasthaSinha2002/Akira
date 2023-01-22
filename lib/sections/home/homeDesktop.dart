@@ -102,9 +102,9 @@ class HomeDesktop extends StatelessWidget {
                                 : Colors.white,
                           ),
                           text: [
-                            " FullStack Developer",
-                            " AI/ML Enthusiast",
-                            " Graphic Designer"
+                            " AI/ML",
+                            "React",
+                            "Node"
                           ]),
                     ],
                   ),

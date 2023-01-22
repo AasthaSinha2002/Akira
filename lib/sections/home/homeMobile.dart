@@ -89,9 +89,9 @@ class _HomeMobileState extends State<HomeMobile> {
                                 : Colors.white,
                             fontWeight: FontWeight.w200),
                         text: [
-                          " FullStack Developer",
-                          " AI/ML Enthusiast",
-                          " Graphic Designer"
+                           " AI/ML",
+                            "React",
+                            "Node"
                         ]),
                   ],
                 ),
