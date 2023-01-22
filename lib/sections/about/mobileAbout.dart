@@ -227,10 +227,10 @@ class AboutMobile extends StatelessWidget {
                       onPressed: () {
                         kIsWeb
                             ? html.window.open(
-                                'https://drive.google.com/file/d/1atEb-WmXY-JDuufwVPlO2myvlLDodsuc/view?usp=sharing',
+                                'https://docs.google.com/document/d/1XNaTphj3BlQoG7n5bW0M-Ep4JSCwndnKcelASIbcuF8/edit?usp=sharing',
                                 "pdf")
                             : launchURL(
-                                'https://drive.google.com/file/d/1atEb-WmXY-JDuufwVPlO2myvlLDodsuc/view?usp=sharing');
+                                'https://docs.google.com/document/d/1XNaTphj3BlQoG7n5bW0M-Ep4JSCwndnKcelASIbcuF8/edit?usp=sharing');
                       }),
                 ),
                 Container(

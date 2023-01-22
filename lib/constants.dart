@@ -6,15 +6,18 @@ const Color kPrimaryColor = Color(0xffC0392B);
 
 // Social Media
 const kSocialIcons = [
-  "https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png",
+  "https://cdn-icons-png.flaticon.com/512/25/25185.png",
   "https://img.icons8.com/metro/308/ffffff/linkedin.png",
   "https://img.icons8.com/material-rounded/384/ffffff/github.png"
+  
+  //https://img.icons8.com/ios-glyphs/480/ffffff/instagram-new.png
 ];
 
 const kSocialLinks = [
-  "https://www.instagram.com/_.assthaa/",
+  "https://leetcode.com/aasthasinha2010/",
   "https://www.linkedin.com/in/aastha-sinha-/",
   "https://github.com/AasthaSinha2002"
+  
 ];
 
 // URL Launcher

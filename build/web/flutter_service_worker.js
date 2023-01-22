@@ -3,11 +3,11 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "1cefaf2a48f42633ff4b37ffe0e9de96",
-"index.html": "a09b6bd43f7b6e8ec6f7e09694696711",
-"/": "a09b6bd43f7b6e8ec6f7e09694696711",
-"main.dart.js": "054dce163ae3289d47fb424c16532a6c",
-"404.html": "0a27a4163254fc8fce870c8cc3a3f94f",
+  "version.json": "a29e8b22a08aa0274b027931eec216c4",
+"index.html": "c40e64a760d27533912909dc2e49bf0d",
+"/": "c40e64a760d27533912909dc2e49bf0d",
+"main.dart.js": "fd0f59cf728e31941e5a4294fc3807fa",
+"flutter.js": "f85e6fb278b0fd20c349186fb46ae36d",
 "favicon_io/favicon-16x16.png": "a529bece00d0055f68c4d37df46ae09d",
 "favicon_io/favicon.ico": "950a1dde402d1cea1f8869cf7ef1c304",
 "favicon_io/android-chrome-192x192.png": "13fd53eeb6a757b36e5e0b403e9b022b",
@@ -16,8 +16,8 @@ const RESOURCES = {
 "favicon_io/site.webmanifest": "f0572899f9633706283c0f91ae9337ce",
 "favicon_io/favicon-32x32.png": "4a25a5397f1a2cedf4843fde38fc69f6",
 "manifest.json": "a94c2f08476855eb525083b63fc6856f",
-"assets/AssetManifest.json": "7d1c714cc9d6d8c139a5db83b72f6844",
-"assets/NOTICES": "acf8e25a2abbd67a6f812c1a7891dd4b",
+"assets/AssetManifest.json": "33e11a7208bc231ffd454a6dc59595b3",
+"assets/NOTICES": "58605968f3af12314541f3df2702f0f9",
 "assets/FontManifest.json": "9bdb557c6b2f6cedd7a1dc0d926f5bd0",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_AMS-Regular.ttf": "657a5353a553777e270827bd1630e467",
 "assets/packages/flutter_math_fork/lib/katex_fonts/fonts/KaTeX_Script-Regular.ttf": "55d2dcd4778875a53ff09320a85a5296",
@@ -44,7 +44,8 @@ const RESOURCES = {
 "assets/packages/font_awesome_flutter/lib/fonts/fa-regular-400.ttf": "5178af1d278432bec8fc830d50996d6f",
 "assets/packages/font_awesome_flutter/lib/fonts/fa-brands-400.ttf": "b37ae0f14cbc958316fac4635383b6e8",
 "assets/packages/wakelock_web/assets/no_sleep.js": "7748a45cd593f33280669b29c2c8919a",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/shaders/ink_sparkle.frag": "bb910dc3619255871209a098a325d879",
+"assets/fonts/MaterialIcons-Regular.otf": "95db9098c58fd6db106f1116bae85a0b",
 "assets/assets/projects/dog.png": "d4b092686b952ab8e5aed76eaab897b7",
 "assets/assets/projects/design.png": "40d2643d1230d4643f858b55c0763cf3",
 "assets/assets/projects/graphic.png": "3d7874730974b1d7fdc7e213d304b86b",
@@ -55,10 +56,7 @@ const RESOURCES = {
 "assets/assets/projects/eye.png": "95fef9d6f140e11bfb02b55812034fb0",
 "assets/assets/projects/urrban.png": "8bc71d31d88017b1654ebdce2d4733ef",
 "assets/assets/projects/playdate.png": "65e0096348b80c6da3b0e8f823244f72",
-"assets/assets/IEEE%2520logo.png": "1312defdf1574ecaa8f56e9a984e4db8",
 "assets/assets/%2520BU%2520logo%2520png.png": "8a2157acd1ebc5a61e04c5d7dc9151f2",
-"assets/assets/mob.png": "b73399d02fceb26b510b6abe92894d80",
-"assets/assets/web.png": "968671063715cb94339f2bd9bbefbaac",
 "assets/assets/hi.gif": "cad5918d86b6a7e83f1fb4acead70e4c",
 "assets/assets/fonts/agustina.otf": "7b9833076716a8d14eec0cf885a3153c",
 "assets/assets/fonts/montserrat.ttf": "ee6539921d713482b8ccd4d0d23961bb",
@@ -68,16 +66,18 @@ const RESOURCES = {
 "assets/assets/services/fiverr.png": "9d4018924e1f0e983a86e7eaf8a0958b",
 "assets/assets/services/blog.png": "5e1cbb2c67e2b8ea9ae4bcce0705d2a4",
 "assets/assets/services/open.png": "4a5996597d32b06d91183f0860c29aab",
-"assets/assets/1.png": "570b2c4af0c0f312d523fb28058d021e"
+"assets/assets/1.png": "570b2c4af0c0f312d523fb28058d021e",
+"canvaskit/canvaskit.js": "2bc454a691c631b07a9307ac4ca47797",
+"canvaskit/profiling/canvaskit.js": "38164e5a72bdad0faa4ce740c9b8e564",
+"canvaskit/profiling/canvaskit.wasm": "95a45378b69e77af5ed2bc72b2209b94",
+"canvaskit/canvaskit.wasm": "bf50631470eb967688cca13ee181af62"
 };
 
 // The application shell files that are downloaded before a service worker can
 // start.
 const CORE = [
-  "/",
-"main.dart.js",
+  "main.dart.js",
 "index.html",
-"assets/NOTICES",
 "assets/AssetManifest.json",
 "assets/FontManifest.json"];
 // During install, the TEMP cache is populated with the application shell files.
@@ -176,9 +176,11 @@ self.addEventListener("fetch", (event) => {
     .then((cache) =>  {
       return cache.match(event.request).then((response) => {
         // Either respond with the cached resource, or perform a fetch and
-        // lazily populate the cache.
+        // lazily populate the cache only if the resource was successfully fetched.
         return response || fetch(event.request).then((response) => {
-          cache.put(event.request, response.clone());
+          if (response && Boolean(response.ok)) {
+            cache.put(event.request, response.clone());
+          }
           return response;
         });
       })
