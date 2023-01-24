@@ -77,7 +77,7 @@ final kServicesTitles = [
 
 final kServicesDescriptions = [
   "\n-Design head @IEEE BU\n-Secretary at WIE BU\n-Video Editor at HappyUS",
-  "\n-Completed Hacktoberfest 2021\n-Contribued to various Open source github projects",
+  "\n-Smart India Hackathon 2022\n-Completed Hacktoberfest 2021\n-Contribued to various Open source github projects",
   "\n-I am a computer vision research enthusiast\n-Have been working on few of which one is google research titled Infinite Nature",
   "Creation and Editing\n -Design Head @IEEE BU \n- Editor at HappyUs\n -Been editing on adobe Premier Pro",
   // "Open source GitHub Projects\n- Awesome README.md\n- Well documented\n- Header images and more...!",
@@ -95,6 +95,7 @@ final kServicesDescriptions = [
 final kProjectsTitles = [
   "Ikshana",
   "Akira",
+  "E-Hatch",
   "Playdate",
   "Urrban Farms",
   "Graphic Designs",
@@ -103,6 +104,7 @@ final kProjectsTitles = [
 final kProjectsBanner = [
   "assets/projects/ikshana.png",
   "assets/projects/akira.png",
+  "assets/projects/E-Hatch.png",
   "assets/projects/playdate.png",
   "assets/projects/urrban.png",
   "assets/projects/graphic.png",
@@ -111,6 +113,7 @@ final kProjectsBanner = [
 final kProjectsIcons = [
   "assets/projects/eye.png",
   "assets/projects/portfolio.png",
+  "assets/projects/startup.png",
   "assets/projects/dog.png",
   "assets/projects/grocery.png",
   "assets/projects/design.png",
@@ -160,7 +163,8 @@ final kGraphicDesign = [
 
 final kProjectsDescriptions = [
   "Ikshana is aimed at helping the blind by providing a hassle free trasnlation of grade 1 braille with an instant voice output and vise versa.",
-  "Akira is my portfolio website, the same website through which you are scrolling now 😉",
+  "Akira is my portfolio website, the same website through which you are scrolling now",
+  "E-Hatch is a one stop solution connecting Entrepreneurs, Mentors and Investors, aimed at boosting startups",
   "Playdate is a desktop application which helps to find a perfect mating partner for you dog.",
   "Urrban Farms is one of my first freelancing project, creating cross platform software solutions for a product based startup.",
   "Here are a few of designs and logos that i created during my internship with Youth India Legal Solutions.",
@@ -169,6 +173,7 @@ final kProjectsDescriptions = [
 final kProjectsLinks = [
   "https://github.com/AasthaSinha2002/Ikshana",
   "https://github.com/AasthaSinha2002/Akira",
+  "https://github.com/AasthaSinha2002/E-hatch",
   "https://github.com/AasthaSinha2002/Playdate",
   "https://rolexsaraswat.wixsite.com/my-siter",
   "https://drive.google.com/drive/folders/1mjxS_CPGLVPeSCZ6rUlxJYLuc0S40shX?usp=sharing",
